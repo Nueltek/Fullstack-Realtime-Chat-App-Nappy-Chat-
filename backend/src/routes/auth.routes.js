@@ -7,7 +7,7 @@ import {
   logout,
   signup,
   updateProfile,
-} from "../contollers/auth.controller.js";
+} from "../controllers/auth.controller.js";
 import { protectRoute } from "../middleware/auth.middleware.js";
 
 // Configure multer to store file in memory (not on disk)
